@@ -11,7 +11,7 @@ const bodyParser = require("body-parser")
 app.use(bodyParser.json())
 const { body, validationResult } = require('express-validator')
 
-//setting express to use  the session
+////setting express to use  the session
 app.use(cors())
 app.use(bodyParser.json())
 
